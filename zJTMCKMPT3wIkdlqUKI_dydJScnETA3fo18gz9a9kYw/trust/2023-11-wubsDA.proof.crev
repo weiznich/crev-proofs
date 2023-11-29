@@ -95,3 +95,20 @@ trust: medium
 xxnAAsboiQah2lVy1xrizmhi__So-VIjt_JWpwORtKluLjcwm-saTpxZcTP01DpqtlEiUoHv6YlldETyU41-Cg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: trust
+version: -1
+date: 2023-11-29T12:09:29.891158984+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+ids:
+- id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: https://github.com/dpc/crev-proofs
+trust: medium
+----- SIGN CREV PROOF -----
+5y0I5vko7c1jkWeTq6xFB6HiWZrZAKJHKSl0n7ARJQc0g0wvgjc3aec-HB6KjxaPCk6NlJg7-v44N8Sr1lCqBw
+----- END CREV PROOF -----
+
