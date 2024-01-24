@@ -1,0 +1,24 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-01-24T10:43:35.437957342+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: tower-sessions-sqlx-store
+  version: 0.10.0
+  revision: 56135eb674c8a6b87e641849140ecba1323de67c
+  digest: pyYdWPo0I_RaqBW9_VAmJjUXFtN3cEDO4JBGT48pM70
+review:
+  thoroughness: medium
+  understanding: medium
+  rating: negative
+comment: |-
+  This crate uses `format!` to construct SQL queries. This is an anti-pattern that shouldn't be used in production ready code. It might result in SQL injections. This was reported as https://github.com/maxcountryman/tower-sessions-stores/issues/2.
+----- SIGN CREV PROOF -----
+BuMJELN5o-R7ku0wqaK14HL8AYW_wZKL8A9J0yzfR8NiDjSHgw8svKzMUDVRZdnmKGzmchsJJFvRtPhDmtFkDQ
+----- END CREV PROOF -----
+
