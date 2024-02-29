@@ -307,3 +307,35 @@ comment: |-
 Nn_LHj5ntqoQmrwronPa5UT-4nk8cbf0b2rPShsErOmPf_BH7s6HRaFBjZfSoL_TgjU_ga11dIHQvUGjlCvLBA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T10:56:02.011012076+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: async-trait
+  version: 0.1.77
+  revision: 70842269bab2b5f3ec1b9d26c3e9fc684648809a
+  digest: J7af7X1k4Pr0sqX6YdxlIfHTgANpiSCfDH-kxuP12L0
+package-diff-base:
+  source: https://crates.io
+  name: async-trait
+  version: 0.1.74
+  revision: 265979b07a9af573e1edd3b2a9b179533cfa7a6c
+  digest: jWoFcI9Rnio6p3n4oGfQu4O8TeTROgegYVSTrZqvqP4
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Update from 0.1.74 to 0.1.76
+  * Dependency updates
+  * Documentation update
+----- SIGN CREV PROOF -----
+dpf_J9Ef-EJ93rs4mxZi6GHzt3H8nZydXlydlWU0kisHNSco3V7EOKPuU8AY44gUrHuM7aYehX3TXzd3H8xvDg
+----- END CREV PROOF -----
+
