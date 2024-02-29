@@ -954,3 +954,35 @@ comment: |-
 efO1ENXcT85F8RBfeRlbzkrJ-4Y8BxP1lxFbsD8S2woh6LXwwXlepCdG9T3f0dhL2xJePkTvtZnGSLeQtSpSBA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T11:58:54.387587452+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: clap_lex
+  version: 0.7.0
+  revision: 9ec6c942b81c370a8c14652e42295933244555ac
+  digest: smsi4rOtvBlgynedKOBPrnjBElTps6ymqhldJlQCZm4
+package-diff-base:
+  source: https://crates.io
+  name: clap_lex
+  version: 0.6.0
+  revision: 38b5a2f956f889baa0a8b2ec975566b0ae27fcb1
+  digest: kJnXhHM-icPc5GJgbPVRQUeUbTecxhnjFn-Tu5c7E4Y
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Review update from 0.6.0 to 0.7.0
+  * Removed some unsafe functions
+  * Changed other unsafe functions (Safety comment seems reasonable)  
+----- SIGN CREV PROOF -----
+gSukZiY14KzThux9pNwaT2T0nW7eChTUEX3TieOpuIkH8PWa74L4Bkfn5kfmaJ447roPbDCf8nbJmRGgdoafDg
+----- END CREV PROOF -----
+
