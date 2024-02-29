@@ -1272,3 +1272,36 @@ comment: |-
 rr2Bc5P420k-iz3Om0yzrLDpsRYSGf3rlzpUXRbV9FhrFVVYuXurWpVbrRIalju7U18rvOigfts9_0w-f1kIBA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T12:21:08.115833726+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: crossbeam-epoch
+  version: 0.9.18
+  revision: 9c3182abebb36bdc9446d75d4644190fef70fa01
+  digest: KmvGTQIId6zAyUCjdIMyiJbKayjbBfJSb5F56Xgu4sA
+package-diff-base:
+  source: https://crates.io
+  name: crossbeam-epoch
+  version: 0.9.15
+  revision: de26ec7f2fa5f2d6ab0a96145e49eefcc03897e9
+  digest: nFqZ5E25QyWl7rSERcv_Oh-uILyGb9FGmnTk59frej8
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Review update from 0.9.15 to 0.9.18
+   * Dependency removal
+   * Build script removal
+   * Using newer stdlib features instead of manual unsafe impl  
+----- SIGN CREV PROOF -----
+m8g5PSD791mlRlPNhoEarXISO3ZJ4Vnz-3aMVqgkwG01EOJvvfzKTbuyATRJdvJ6qwK-YzIIPQNu-QskPXJzAg
+----- END CREV PROOF -----
+
