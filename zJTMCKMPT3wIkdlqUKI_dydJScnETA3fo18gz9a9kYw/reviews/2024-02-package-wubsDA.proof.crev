@@ -1559,3 +1559,37 @@ comment: |-
 KtoWWDfiQngow9BZDQBnMycjBS5pC6Su-CmtQbc-lKoTxd_1xhqxAYoigxcVEB0BofLuTXxC_3tEzlyqleR7Cg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T13:33:54.635241380+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: eyre
+  version: 0.6.12
+  revision: 701d05a9f6fb4812a8561772da65066dc007faa1
+  digest: 5Ko8hXLw4Q2JDWNMYdghsrcHNci9BE9320H933evaDM
+package-diff-base:
+  source: https://crates.io
+  name: eyre
+  version: 0.6.8
+  revision: b6075394bcaaa8cc311321239f8964099bb02a88
+  digest: 8h2eDesplXGQzJYpPzlfjDs1VN7YoriJUnpVuHVKT04
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Review update from 0.6.8 to 0.6.12
+   * Repository url changes
+   * Update build srcipt to have a better rust version detection
+   * Improve trait object casting functions
+   * Minor tweaks to the ensure macro  
+----- SIGN CREV PROOF -----
+eCoJ3iIP5F-ZM9NlcHbYD8UtRncz6-YqdLpw67U1qZHpIa0cYzZudJUKLd6b5CszBOSHkLadcbVNqlDg_JfyDQ
+----- END CREV PROOF -----
+
