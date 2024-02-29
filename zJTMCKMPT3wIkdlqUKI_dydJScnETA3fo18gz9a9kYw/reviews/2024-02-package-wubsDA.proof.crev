@@ -1528,3 +1528,34 @@ comment: |-
 CzDnCcrL7PB7PddPsh44FczekbtMT5GgANLlaOodDaMtm3zAKFS7TDxtjzCqHHTFWz0wV2ulVFa1OlxpBKaMAg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T13:27:10.446196595+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: exr
+  version: 1.72.0
+  revision: 29474d3decd03affbc0e9f570df2a6ba79705708
+  digest: LoeqPdhEfjxU39-FsGonjE8ArLtI75X7uk4kdG4JpSA
+package-diff-base:
+  source: https://crates.io
+  name: exr
+  version: 1.71.0
+  revision: 0d78600022ed9f61f8b06414f56ca3301807b63b
+  digest: -hR6rawYE9zqjrEC-MdtaK3M3uVZt9Kh6o9iNZaT9aQ
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Review update from 1.71.0 to 1.72.0
+   * Removed an unnecessary clone  
+----- SIGN CREV PROOF -----
+KtoWWDfiQngow9BZDQBnMycjBS5pC6Su-CmtQbc-lKoTxd_1xhqxAYoigxcVEB0BofLuTXxC_3tEzlyqleR7Cg
+----- END CREV PROOF -----
+
