@@ -1463,3 +1463,36 @@ comment: |-
 RFWF7bHKhHYmgO9uhQBPkGxeRkBewE4FmagO1Uc9QesmsA7xoOK2E219Dw3OwqgLiHD8WORO00ym44XuBXAxCw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T13:22:58.475690558+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: either
+  version: 1.10.0
+  revision: ede3c47ed7f17b2d2ce78c6507b2c9af94c3df6e
+  digest: iukCXK8RRuGQ9Mq0ug-EE3BEMNVXjXrnakjAWQBzPZQ
+package-diff-base:
+  source: https://crates.io
+  name: either
+  version: 1.9.0
+  revision: 7a60ae82de8309d23d9e3fa55668bf713bd916bf
+  digest: KbsQE4NrpSvsBZFr-pgWDLBrWLv-bJyFKVpykz7-pvk
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Review update from 1.9.0 to 1.10.0
+    * Changed repository url
+    * Added a iterator variant
+    * Added new functions  
+----- SIGN CREV PROOF -----
+CYd5A4ZqY3C1aF5FwksUQ6kQdLJe8jJlzb4Q6XcUlGwyk1zNG8URPkLMv0aW1kQF7Ibu2lnvGvGOSUOQl_fRAg
+----- END CREV PROOF -----
+
