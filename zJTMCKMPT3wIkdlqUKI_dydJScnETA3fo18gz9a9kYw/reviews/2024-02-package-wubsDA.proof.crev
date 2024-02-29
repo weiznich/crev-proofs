@@ -1655,3 +1655,35 @@ comment: |-
 uRAe7K6d2050x9vANbFyQoQvRqZxIIRDSS5BHvB37lhDKN75PoC1DOgBoXACZsZWaf53nNZ-5VO_BpNFcGApBA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T13:42:47.766340213+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: freetype
+  version: 0.7.1
+  revision: 556a78c71f9a1d20515423b9aa93b78b53792cb3
+  digest: c-SFnfgXnuw0Sf--JlDbcPSWd4yOjGm2gx3H83WNWbc
+package-diff-base:
+  source: https://crates.io
+  name: freetype
+  version: 0.7.0
+  revision: 2f467f22d6d0498acf3b19cea80621f5f74de99e
+  digest: x5G_Cw0UhKHWQ9Es2EPkuXNwK0w4y3eaarHhZiEo1_Q
+review:
+  thoroughness: high
+  understanding: high
+  rating: positive
+comment: |-
+  Review update from 0.7.0 to 0.7.1
+    * Added a readme
+    * Bumped freetype-sys dependency
+----- SIGN CREV PROOF -----
+wOaDhU0U2242WHDpN9o-3N45YL0xwHDgC5QyE7FjWDlu3tFvxz836_l8AL2IPCwIVvtDugECpL19wkJmD8fACA
+----- END CREV PROOF -----
+
