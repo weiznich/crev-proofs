@@ -2033,3 +2033,36 @@ comment: |-
 mMz95VAYuwaRGZ0ZQ9PU8u1LrufBYwPBmjHm0s6D66QLdKmItLKaZAHL7iVRp-KUYLnKWxA8O9wDAdrzHz2IDw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T14:03:58.681599669+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: geo-types
+  version: 0.7.13
+  revision: d0537caf204ec9b62818e43d5e1e1b704654bbcf
+  digest: xje4SfEnd6GuM-JYU-yc_dAm_8saMxcTWgQX6hUXkHM
+package-diff-base:
+  source: https://crates.io
+  name: geo-types
+  version: 0.7.11
+  revision: 3f9e12f19493527afaf5330bfc3209364dad8d7a
+  digest: Noo6t0MOEB6CgkCAReks6dG1EIdl7LUU_HYPNt8ZpjA
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Review update from 0.7.11 to 0.7.13
+    * Added an optional dependency to rstar 0.12
+    * Added a wkt macro to generate geometries from the wkt text format
+    * Internal code improvements  
+----- SIGN CREV PROOF -----
+Gl9gm1hPecPvDIfeoNAPTdPdQoE1tA_DFZCmoo5teZw78kp0fsSRKLw5_XfgXfVkBb3JWGWm-6nOW8kSysBJBA
+----- END CREV PROOF -----
+
