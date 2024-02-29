@@ -1019,3 +1019,35 @@ comment: |-
 agVQ0DFKiYdCfrbnsPgqBEn6kgOCCw7qJeBBl1otw0id5aNdJ7dbkvFpeQwP3-SCukszEt2Z3xpfLdTExNnbCA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T12:03:14.170336281+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: console
+  version: 0.15.8
+  revision: de2f15a31a8fef0b0e65ef4bdf92cd03c3061dac
+  digest: zFmNLLZMPc-XUohc7d_NPhAVA28iEnx7EZTvRQYjHNQ
+package-diff-base:
+  source: https://crates.io
+  name: console
+  version: 0.15.7
+  revision: 842b3767f9bca687c216a0bc619fa64b9880f18d
+  digest: 7099dhjpVJ9MyVN-MgvN3psQX9bbv2biVQ4E_nlBI2k
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Review update from 0.15.7 to 0.15.8
+   * Bump windows-sys dependency
+   * Added wasm32 support  
+----- SIGN CREV PROOF -----
+BFhkTL7D_dHOU1RK-WrHYojuKf8QqcLSlF5REcV5KY_X1EcUHzINiccgcRQTObN1Gxr4FJLZL6ech23OUwYtCQ
+----- END CREV PROOF -----
+
