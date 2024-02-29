@@ -59,3 +59,35 @@ comment: |-
 mkj8uXNeO8S-i_u1d8ilW-XRXUMf47jxnKrWoRYDYyEKQ1DY-9li5AEsT2_EyCe8YVemDY0KtWatEJ2Nvl-kDg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T10:20:43.143970251+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: anstream
+  version: 0.6.13
+  revision: 0e062b8a4d73ae21ce6e08a06f4ca2a0c5a330db
+  digest: wTvyP-XpQchx2Q9ooeYZ7sasHI16IGlsTzEqtyiA3Hw
+package-diff-base:
+  source: https://crates.io
+  name: anstream
+  version: 0.6.3
+  revision: 2dfcba5a7a5490eb9003078c95aa70f267e9934c
+  digest: Zrpu3X7D6jnics2NWJqgYkfpcX-li3FA2AIIjmBcOUk
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Review update from 0.6.4 to 0.6.13
+   * Dependency updates
+   * Minor internal refactorings, does not touch unsafe code  
+----- SIGN CREV PROOF -----
+7A8fei59fwLPjAOws8uHW_VHQ0U03B5Sbn0fFjTdKYBBn6n4r4QY6klSRWyems4g6OVVflhpDI6VmOEvktrtAg
+----- END CREV PROOF -----
+
