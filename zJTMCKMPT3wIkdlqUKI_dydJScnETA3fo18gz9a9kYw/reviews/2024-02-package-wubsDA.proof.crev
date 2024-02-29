@@ -1751,3 +1751,35 @@ comment: |-
 uFbtiOJOLDokukfeeCO3Bf7pEUPFqRYyavX_cywpb1fzVk5iepaRMX4xXRmL5SIlHC7VSQjcEyGpI4X_jRcZDw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T13:48:17.423880603+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: futures-channel
+  version: 0.3.30
+  revision: de1a0fd64a1bcae9a1534ed4da1699632993cc26
+  digest: eDmFv67kVZ9Yw-Uxc4LE-XUmxL7IAr-16sI3K9bDhAw
+package-diff-base:
+  source: https://crates.io
+  name: futures-channel
+  version: 0.3.29
+  revision: 86f2a6aa8c0a188c8b75be0e4eac711321fd13d7
+  digest: SoGwd0yLZGBlKGk4SuqzbbcKHjXtq_rZvU5HN2ipHjE
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Review update from 0.3.29 to 0.3.30
+    * Removed build script
+    * Update child crates  
+----- SIGN CREV PROOF -----
+Qy8BjR8ZS6Hx8a58oAGRr8qAcKYVyxWZfT0B3D7plAPoOMpWvSNKWbi4M_3p9sTFEdUE8jsbX0I1OdZesK6vCg
+----- END CREV PROOF -----
+
