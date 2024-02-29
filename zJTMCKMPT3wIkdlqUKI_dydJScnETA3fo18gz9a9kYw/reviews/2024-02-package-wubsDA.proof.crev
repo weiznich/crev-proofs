@@ -2292,3 +2292,36 @@ comment: |-
 -FS46eTEbPBITW5HRcD0LsN9Cwq8eh3SlA96OqrUTPtjCheegpo5nmpP-criWk0EEDW_O9yz0tp4_-6-KCb8Cg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T14:31:58.551223494+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: hermit-abi
+  version: 0.3.9
+  revision: 742bd94a29b872a2e958cabe594b3bbbd48050ba
+  digest: Bl0OMqYgClqsVjSZIZob-IS8unXDlmzx4SWgO6WuPJg
+package-diff-base:
+  source: https://crates.io
+  name: hermit-abi
+  version: 0.3.3
+  revision: 7c5fd16243322b0dbf0ea83f88c6759dea2757af
+  digest: binuT4JP1UdOYJO7nCuWWGBUKfioEaa4rJLQAVG5B2A
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+comment: |-
+  Review update from 0.3.3 to 0.3.9 
+  (Seems to be a sys crate)
+    * Errno support
+    * New functions  
+----- SIGN CREV PROOF -----
+flqfwURgLIpVA-yMxOXhtqDJS4_IsrnQd-77Z8TzK7f6dsT7bNMoxMYTfvPnzryr6I0NzYDsvh5kdXjIxYgqAQ
+----- END CREV PROOF -----
+
