@@ -2229,3 +2229,35 @@ comment: |-
 LNbtgwM9TDYTcNWNkdrVMW0A9a8Z8mTlsieXLYvNvfcdTYFCJPCzCTfPIAjTZ4qHajMM2S8z26jdqMaMDu0hAA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T14:24:15.591101618+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: hdrhistogram
+  version: 7.5.4
+  revision: a3818d6ce81556010c7f04f423e1fa28a9ff1b5c
+  digest: CwZl_NetapuhsIFsbnR8cG4vpUiBIiuaVAfu7PWZ6KA
+package-diff-base:
+  source: https://crates.io
+  name: hdrhistogram
+  version: 7.5.2
+  revision: 1b85115e316b523334239b94c13531ca81f2f73a
+  digest: dLI7qP_aqH86cGhgusBY9BuqoAbc07hCvo1ksbj_ORM
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Review update from 7.5.2 to 7.5.4
+    * Improved some previously implicit null value handling
+    * Dependency updates for for base64 and clap  
+----- SIGN CREV PROOF -----
+xJ2qi6yfUUeHhqYKkYGwAMq0iiALaWWBEhhY-Pr4yvuKyaqoYgk-aNetjMBUNCAyPQEEGM_mAHxWvKoZSKyPBg
+----- END CREV PROOF -----
+
