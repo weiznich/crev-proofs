@@ -1907,3 +1907,34 @@ comment: |-
 WN36qoLb7bAmB9iH_dDG8dn6XXJskqVnzuVTVc4yWKZxbZiqgC-lcNH_2wp9s8fj-yuvhOo_VSOT3POMhGjwCQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T13:55:31.104699597+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: futures-sink
+  version: 0.3.30
+  revision: de1a0fd64a1bcae9a1534ed4da1699632993cc26
+  digest: RnJEUfZVUpVg1doMZoj5wLn9bxwy-Lcd8dRogHKJGyM
+package-diff-base:
+  source: https://crates.io
+  name: futures-sink
+  version: 0.3.29
+  revision: 86f2a6aa8c0a188c8b75be0e4eac711321fd13d7
+  digest: QfuVkkd_79dUZ_BhWhKO5DwX52_nQJzv5yEUkT6wSOM
+review:
+  thoroughness: high
+  understanding: high
+  rating: positive
+comment: |-
+  Review update from 0.3.29 to 0.3.30
+  * Bump version
+----- SIGN CREV PROOF -----
+fRMtIiioprVRKCkPUdwYBogjpHNmbIKRh0kjDyNQKzjUUALjIh3aV9vDdF9FGjbOKXJ10TRQwrx2cIs9una_DA
+----- END CREV PROOF -----
+
