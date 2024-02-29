@@ -2639,3 +2639,34 @@ comment: |-
 mPZy4t0YjAhOCVAz-96ICbsSAeO-vB7B7Y6I3oEZ2GeLFhzBeUXM5Svpw8k7W146ULLpOWMtUMkDr6qJQIiuAQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T15:13:57.158818973+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: itoa
+  version: 1.0.10
+  revision: 547c143d503f4624ff11ee13fd3a5b0274f4c27f
+  digest: h2CcbTVjf3V9orOuvIkE1v0EbHreB7yHtRZl5XGyjB8
+package-diff-base:
+  source: https://crates.io
+  name: itoa
+  version: 1.0.9
+  revision: 81c115b833792b698cbac1af2d37d707c6a641ee
+  digest: kQhMR5PTLGfURMT1nH9znZBnr3uk27gZml0t6PtLvos
+review:
+  thoroughness: high
+  understanding: high
+  rating: positive
+comment: |-
+  Review update from 1.0.9 to 1.0.10
+     * Minor clippy allow tweaks
+----- SIGN CREV PROOF -----
+oArU3xyaCZuNbf5xwGspbjl3hQ_ZTw4PqfUGeGpJatClfIfbX74MWs8VfM9xgf37wYSQjK-4_08pfnTP7iMdCA
+----- END CREV PROOF -----
+
