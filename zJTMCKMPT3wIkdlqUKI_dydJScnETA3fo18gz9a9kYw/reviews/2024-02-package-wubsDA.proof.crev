@@ -761,3 +761,34 @@ comment: |-
 QnyRYPkp15gADlVQPDL9ie-Bgl0dV1vY_lU4Pceqg_LqftOtgfk6TazcVqS6A_ZdZa5FwDt7Kxw4vJYsNHEJDw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T11:44:01.202522472+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: ciborium-io
+  version: 0.2.2
+  revision: fdf3ec5c53256000f8e12f06c361ca18026a8d99
+  digest: 0KNLEKUSh-1pCNJX6XS0a2D92sdnCL-fex1k5oCnwik
+package-diff-base:
+  source: https://crates.io
+  name: ciborium-io
+  version: 0.2.1
+  revision: 7d8f6e499db51fe52f5d3c2ce1d0e0be61c7eaa2
+  digest: j8VauFDTQYIg5xK-KYNRuF4HhPctIVdlMXHHH01KJYA
+review:
+  thoroughness: high
+  understanding: high
+  rating: positive
+comment: |-
+  Update from 0.2.1 to 0.2.2
+  Just a dependeny bump  
+----- SIGN CREV PROOF -----
+ZpSeFn9vrqN71YEHYiX4X_qv10-WyaJUX8PadtSwlZ2DporpOpatZvI1engtHACFIMvanPP6NyWJyptyzfcHCg
+----- END CREV PROOF -----
+
