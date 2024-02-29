@@ -663,3 +663,34 @@ comment: |-
 _2b-5OXIK4TDhvT97-UinFbBprzySgfRZgwWjeS3fGnzhFwBbffAXgDVL0MmoIJYVTfme1U7XSgciO6Qc2QJAA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T11:34:29.763541334+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: cc
+  version: 1.0.88
+  revision: 561543c5f0f3f4efed4e97844f89c8b424e19d3e
+  digest: ELu4AjxpDEMgaLv1zoLCowfO3RgUnSx-n5IMg2D7ymQ
+package-diff-base:
+  source: https://crates.io
+  name: cc
+  version: 1.0.83
+  revision: bfc3ba414e896f48a70d55d9be1097e2945e17ad
+  digest: cO6sMa7jNfdWX6E7AWYBHVk8kK5nbz4NdiBcTXPaXD0
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+comment: |-
+  Update from 1.0.83 to 1.0.88
+    Large scale refactoring, moving around large parts of the code, remove legacy code
+----- SIGN CREV PROOF -----
+HfLuvhtv8iKhVNv1SKYlWMsyiMA-mzuRntoXvyR1MBa04wZoVY5pcemdb8jTtKGQGKth_CFhRFmvDV9WgJZfDA
+----- END CREV PROOF -----
+
