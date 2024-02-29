@@ -2793,3 +2793,35 @@ comment: |-
 8mEkgr_-DAjzPQETxEwqD0uaejPwjTw-EYRJknPP7QbcPzkCw8iSm-RKbY2fPL4Ti_uymcRKDyZyFKbjJJznBw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T15:37:20.039652543+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: memmap2
+  version: 0.9.4
+  revision: e0a7834fa0909494490874dbd1cbd66d2e453d5b
+  digest: gUrzG0H4s-RPFoQdgkBGeYYbnIh8Qn_lQl40w9hH0Uo
+package-diff-base:
+  source: https://crates.io
+  name: memmap2
+  version: 0.9.0
+  revision: f16835d01ad1d36198718e23273558f1947fc138
+  digest: n-wVyw_R-Uq7JkZ4mr6m_CwPao0JrD7mzD3M_hEgGpY
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Review update from 0.9.0 to 0.9.4 
+    * Added support for huge memory pages
+    * Adjust target support code  
+----- SIGN CREV PROOF -----
+AOYFuY6_WxRs6LfQU6znkXn6fELQMzIjTrd82prA3PhLnEGwjljoro3qqpzVNWakq3ts1vOFTXNYb27L7yOnBQ
+----- END CREV PROOF -----
+
