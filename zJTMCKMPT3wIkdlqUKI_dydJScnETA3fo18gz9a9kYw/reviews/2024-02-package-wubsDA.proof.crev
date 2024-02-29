@@ -1209,3 +1209,35 @@ comment: |-
 F-aOE-uT96XK3ubeqyQqBr7kSZV8dNwUKQGiv-hZki6-WsSBMB47aVbcaMLwpTrk3Sgk2WHt7YWLRpfR_kQ1Cg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T12:16:09.467960025+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: crossbeam-channel
+  version: 0.5.12
+  revision: 53536a9fd4de1c1bc7eb887f8bc4b9404a7c098e
+  digest: ptnyqSb1-Ie6z4d-lJCxZ9ch7_vwBo4bPzRNbD8NlVQ
+package-diff-base:
+  source: https://crates.io
+  name: crossbeam-channel
+  version: 0.5.8
+  revision: 81ff802b19afc9e3ce37b822b3d5681f6e961cb7
+  digest: Gb2A604qLy8O7Hefq9Mu6q57YJSLpfd0nENCSvn8LEo
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Review update from 0.5.8 to 0.5.12
+   * Using some newer MaybeUninit functions in `Drop` impls
+   * More explict cfg usage   
+----- SIGN CREV PROOF -----
+-CiM1pG69lkKj7zYCNzd_Ot56TI0AYuquLLHooQ6N4rYYThydVUAVJDcCE6KSTZkIpp-VYYhsvwpsXAYy3bODA
+----- END CREV PROOF -----
+
