@@ -2577,3 +2577,34 @@ comment: |-
 mi1rpBGE0GNVlKVoTaaPiL-BxRjC2b5C8B6hQXhFvh1MLcd_a8StAfPhWY2d9NfV039jNolcdF1SNKDNLrIaDA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T15:11:45.165010347+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: insta
+  version: 1.35.1
+  revision: a75308a722a43749f812367dc4827143b4275233
+  digest: zik-aaR-5c7eohhls9KbY4FqFokX--3L9J9wfZ_prR4
+package-diff-base:
+  source: https://crates.io
+  name: insta
+  version: 1.34.0
+  revision: 324cd7154a2f5e4b5198747049202f69305c2ac5
+  digest: vcbm1b8wTa4Z1eDkjdnRyMYKR1jst3l9gzw3Rzm0vxY
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Review update from 1.34.0 to 1.35.1
+   * Error handling improvements  
+----- SIGN CREV PROOF -----
+kzM2TkEfmbJLmpD2O6bv1Y3jGQsU_KyzGgQbGd8J4NAcCm-nVwCLq8CnSOZcXZbF9YK3bNRPUM375-PZlgKcCw
+----- END CREV PROOF -----
+
