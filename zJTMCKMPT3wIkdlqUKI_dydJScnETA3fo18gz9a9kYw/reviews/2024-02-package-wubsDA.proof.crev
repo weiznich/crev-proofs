@@ -1,0 +1,30 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T10:09:55.394111144+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: aes
+  version: 0.8.4
+  revision: f2dbee516b4d0cf4cb4f3045d09e35b5fd80087b
+  digest: cCkdioBI4Xwx5v0C-U57A6fb6dUItmRfnRTVVrvBSlE
+package-diff-base:
+  source: https://crates.io
+  name: aes
+  version: 0.8.3
+  revision: 1849105094b206fc1677001af07476b3ca80ec51
+  digest: jI7k5Wvc0y4nrGdhByG2kNiU44zN5KU-pX1HiirKnOw
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Review Diff between 0.8.3 - 0.8.4
+----- SIGN CREV PROOF -----
+hs_qqCKyDRPTxKaHL6Pp-OOrurXURqAaAncyGz0NMdcqULAExsgk3YCuIa3rKVNcC6cXGYgp1o8Wfo94iBwmCw
+----- END CREV PROOF -----
+
