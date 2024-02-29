@@ -371,3 +371,35 @@ comment: |-
 pxGbn20ua9ADRZxHmu-L9xLoopJrJlCl7B88XVu_fSAOvqqEiVyTJ24yObVZpF_wk6RFzd7e4nDEgV1dr6BYCg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T11:01:11.131713041+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: base64
+  version: 0.21.7
+  revision: 9652c787730e58515ce7b44fcafd2430ab424628
+  digest: POU4OP667GoUT9IfXMguIjdqWzqx1fCcNxMm7jnK2PY
+package-diff-base:
+  source: https://crates.io
+  name: base64
+  version: 0.21.5
+  revision: 7f81bafe0e76bcdb84f3069d81d56d77a7a24280
+  digest: HPyZyNsEymlZsnm-VqF6BHBvPfR0KeUmtAZxV56_Jiw
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Update from 0.21.5 to 0.21.7
+  * Documentation updates
+  * Minor adjustments to the alphabet code  
+----- SIGN CREV PROOF -----
+Q34yH9lJCZZsTB_NAShKvLUfAq0CxdqAY_mzFOwn9OiakCZv1nbaI2oSxfbHz1mSLf8Aw7sVQN3o6RpDfpWuBw
+----- END CREV PROOF -----
+
