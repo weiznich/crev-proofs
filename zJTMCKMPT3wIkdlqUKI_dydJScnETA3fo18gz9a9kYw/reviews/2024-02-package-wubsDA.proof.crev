@@ -184,3 +184,34 @@ comment: |-
 aSZXyFKWOAux4PYO-ky72IxfmrfURzWmqiw0IR2VCOk7LSmJ7t6thI4FMK10MZe8qj3z1S5fNbE9vlRR8p3lCw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T10:37:31.526793548+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: anstyle-wincon
+  version: 3.0.2
+  revision: 3c3d95ae15795c3be8a2e70de4ba50de1aed4002
+  digest: VfX1Wq7pPL-aiI_dWAukPuUt9k4dSc23u3BWsQ83xZo
+package-diff-base:
+  source: https://crates.io
+  name: anstyle-wincon
+  version: 3.0.1
+  revision: 135a89d33a2cbc06288bdd8e6e873fb0ee867e32
+  digest: E69xYoD_mvVdgQNtFvKWA9EznQxHXWici_yezdW-Pyc
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Review update from 3.0.1 to 3.0.2
+    * Update windows-sys dependency  
+----- SIGN CREV PROOF -----
+HOPbcFys6Oy3wvqf3NqTWqCUNa0IioXVPnfJlOS9qBwRiVqTSqyhtp-bamisb6eDhPq6yONPr5wtdPlSybEWDg
+----- END CREV PROOF -----
+
