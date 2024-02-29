@@ -28,3 +28,34 @@ comment: |-
 hs_qqCKyDRPTxKaHL6Pp-OOrurXURqAaAncyGz0NMdcqULAExsgk3YCuIa3rKVNcC6cXGYgp1o8Wfo94iBwmCw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T10:13:18.837103031+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: ahash
+  version: 0.8.10
+  revision: 545a200b43fee2404c812d5d5c05c2734fb790bd
+  digest: L5b_7lBrC08UDFBtIqS3rHpkmmnwIss3djy2bHwWyRY
+package-diff-base:
+  source: https://crates.io
+  name: ahash
+  version: 0.8.3
+  revision: f9acd508bd89e7c5b2877a9510098100f9018d64
+  digest: 2qEdj-kQ2J7W17La9tgvskRQd-Vb2GSNpqKKLHir3es
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Review changes between 0.8.6 and 0.8.10
+  * Mostly formating + some feature flag updates  
+----- SIGN CREV PROOF -----
+mkj8uXNeO8S-i_u1d8ilW-XRXUMf47jxnKrWoRYDYyEKQ1DY-9li5AEsT2_EyCe8YVemDY0KtWatEJ2Nvl-kDg
+----- END CREV PROOF -----
+
