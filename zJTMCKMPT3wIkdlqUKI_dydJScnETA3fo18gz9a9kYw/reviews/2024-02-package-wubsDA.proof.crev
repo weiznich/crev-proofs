@@ -469,3 +469,36 @@ comment: |-
 MW-8ztb0k5vt702MxhCD0OOfDkJdAKEQX7z5ygpyysTdn04X9a_AvWnQUzXiOz2VuU37dQcrCVzfS9oa4mEqAw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T11:12:08.480066251+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: bytemuck
+  version: 1.14.3
+  revision: 49eed864acb5791f61753bfeae488718d481f1f3
+  digest: qfol17zFoKkk4KLuPm9rwpW7qI6cxjf_oKHtHce5Ms0
+package-diff-base:
+  source: https://crates.io
+  name: bytemuck
+  version: 1.14.0
+  revision: ff0b14dae9a4f0650f17c15c16acbd75df1cc4b5
+  digest: P8tNFWg9MFlM6dGN466_BkqxfPstVemBQz8RhQeueDg
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Update from 1.14.0 to 1.14.3
+   * adjust the unstable stdsimd usage 
+   * documentation improvements
+   * changes to a pointer/box related container (contains a lot of unsafe code)  
+----- SIGN CREV PROOF -----
+iDM6PV9HaNoYH8p3HE4PR9U2LHCWEw2epAo9A7KnFaWnsyhlvCb-8JuP-MJYk_QqIwRgOvk1fPdhOjXHKEoNAg
+----- END CREV PROOF -----
+
