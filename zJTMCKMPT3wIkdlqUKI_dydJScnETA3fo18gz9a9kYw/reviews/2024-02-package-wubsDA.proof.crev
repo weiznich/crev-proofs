@@ -1783,3 +1783,34 @@ comment: |-
 Qy8BjR8ZS6Hx8a58oAGRr8qAcKYVyxWZfT0B3D7plAPoOMpWvSNKWbi4M_3p9sTFEdUE8jsbX0I1OdZesK6vCg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T13:49:48.125713029+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: futures-core
+  version: 0.3.30
+  revision: de1a0fd64a1bcae9a1534ed4da1699632993cc26
+  digest: qCLVPOPeRqe3_NAAJ7oNAbznEhrY7IRBNvPdBStU_4Q
+package-diff-base:
+  source: https://crates.io
+  name: futures-core
+  version: 0.3.29
+  revision: 86f2a6aa8c0a188c8b75be0e4eac711321fd13d7
+  digest: pBJP6RJBjTZEDxhyfTNygVQMiaRq77X6JnarABeQmEk
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Review update from 0.3.29 to 0.3.30
+    * Removed build script  
+----- SIGN CREV PROOF -----
+-pUw3v1hi_L-V1c7b6a9VZLvrJCD1eEB0fxSF0PJaLYMxmSAOEsqd5147nK0P4nIO_xiH5WVsTJPZYtZhwjtDQ
+----- END CREV PROOF -----
+
