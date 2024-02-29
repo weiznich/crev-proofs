@@ -1876,3 +1876,34 @@ comment: |-
 IbqW6qOBqRfTf4mdVX0ml0b59UaHYj7MxUFjtqOWeBlYQoY-s56jj0IMjL8qK35xUcfKHdQo2uvw5SPNTtqjDQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T13:54:15.408186265+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: futures-macro
+  version: 0.3.30
+  revision: de1a0fd64a1bcae9a1534ed4da1699632993cc26
+  digest: xsCSkA_8VLnL7EqU9atLumLR_zoa778r2xK86KMPh0w
+package-diff-base:
+  source: https://crates.io
+  name: futures-macro
+  version: 0.3.29
+  revision: 86f2a6aa8c0a188c8b75be0e4eac711321fd13d7
+  digest: 7siEZN0HWWHY5NwVilCnuekPaLRRyiOMEkO2Ytc33Bc
+review:
+  thoroughness: high
+  understanding: high
+  rating: positive
+comment: |-
+  Review update from 0.3.29 to 0.3.30
+    * Bump version
+----- SIGN CREV PROOF -----
+WN36qoLb7bAmB9iH_dDG8dn6XXJskqVnzuVTVc4yWKZxbZiqgC-lcNH_2wp9s8fj-yuvhOo_VSOT3POMhGjwCQ
+----- END CREV PROOF -----
+
