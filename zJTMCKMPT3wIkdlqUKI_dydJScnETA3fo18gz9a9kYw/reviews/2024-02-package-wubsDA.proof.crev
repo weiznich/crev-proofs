@@ -986,3 +986,36 @@ comment: |-
 gSukZiY14KzThux9pNwaT2T0nW7eChTUEX3TieOpuIkH8PWa74L4Bkfn5kfmaJ447roPbDCf8nbJmRGgdoafDg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T12:01:10.107526672+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: color-spantrace
+  version: 0.2.1
+  revision: f833836c2f13a2627a1535c4833184ed2f8b61e9
+  digest: rCupi1G6paS5kF0SvOynjtvd8fx7TBMj8T7gW5Tq-Ew
+package-diff-base:
+  source: https://crates.io
+  name: color-spantrace
+  version: 0.2.0
+  revision: 15538366ffc69d3bae23a67fbeaf3edd7d08b107
+  digest: 9PNV_efp_KUjSb5GMHJTwd7N9hPgg4EXU4ASH4Lo7_k
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Update from 0.2.0 to 0.2.1
+   * Repo location changes
+   * Minor documentation updates
+   * Included licences  
+----- SIGN CREV PROOF -----
+agVQ0DFKiYdCfrbnsPgqBEn6kgOCCw7qJeBBl1otw0id5aNdJ7dbkvFpeQwP3-SCukszEt2Z3xpfLdTExNnbCA
+----- END CREV PROOF -----
+
