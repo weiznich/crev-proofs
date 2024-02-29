@@ -2731,3 +2731,34 @@ comment: |-
 0OkxCWO-3IGzYC-pzR8MSVNpEP_sw74mksqS6LtmRbOloKs3dV4_vLGBL1TWUYShLDqmpvEl7A92rOd41GyDCg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T15:33:43.292831706+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: log
+  version: 0.4.21
+  revision: 3ccdc286fef3076747fe18a2a93658ea4d4ae012
+  digest: AkbzkgKCayIZnjnOogJlXCNBcbkTj87u9sLLbcTgeHw
+package-diff-base:
+  source: https://crates.io
+  name: log
+  version: 0.4.20
+  revision: 4708f1484c7e6b8d4418b571c05e613b18e57673
+  digest: ePUKY7MplFBL-kQwRIBNpHOvAxXXW1I0pBgqcDXHQeM
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Review update from 0.4.20 to 0.4.21
+    * Newly added key-value API  
+----- SIGN CREV PROOF -----
+t4EeSnFjVLanoAo_6mZESjyxYlw48DvoozYy5T5jY1mPdNLfSpkn8lYP-wkdLQKX8wvarmQ2Iz9PFFomQ-fxCQ
+----- END CREV PROOF -----
+
