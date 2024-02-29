@@ -122,3 +122,34 @@ comment: |-
 InQCbU3R74azQNQV7B6kkSmbYEJREIODiC6jtMS_8RwYvFOJhaH9O_tZ-hsLgVRpsBf1AgkbVo0upjSzAswPCg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T10:32:43.979022680+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: anstyle-parse
+  version: 0.2.3
+  revision: 3c3d95ae15795c3be8a2e70de4ba50de1aed4002
+  digest: L7aimJ-Ts5k7l12XdSWHy4tQJiY5ttP08lxNmg42NoA
+package-diff-base:
+  source: https://crates.io
+  name: anstyle-parse
+  version: 0.2.2
+  revision: 1b3fa56dd24718ea4a808ed1ef39db2e64c4425d
+  digest: SzZj9igdFZdIh9P9o74VryhBrns3y-6XLPlD7hFTAVg
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Reviewed update from 0.2.2 to 0.2.3
+  * Dependency updates  
+----- SIGN CREV PROOF -----
+z28z73x8iju_Im3UaFy7OVJE8KqCHcXeJn-2Iw80leXHTyX5VwOoWGUngTYCymK_L-zxiW2rWfcgiBFfEreGAw
+----- END CREV PROOF -----
+
