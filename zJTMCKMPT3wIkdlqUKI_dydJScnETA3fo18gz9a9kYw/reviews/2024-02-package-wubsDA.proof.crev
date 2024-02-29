@@ -2132,3 +2132,34 @@ comment: |-
 6YEpyAri5vHfPWP-TAmpiqwoO0eLaW1CawFnCICAYZiuovouNVUlam-72yg3CRx-EnGIQ9dfYDhiOGNKGamJBQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T14:14:34.191831749+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: gimli
+  version: 0.28.1
+  revision: ee0262aff054b87270072a5ea9b254177edcc80f
+  digest: 2AUXSEeWXChPqn0qQbBuN7k3ZDaGOwg1Dld9EBm4LRE
+package-diff-base:
+  source: https://crates.io
+  name: gimli
+  version: 0.28.0
+  revision: 39478799020819314bdf7aac8cc3e08fe451269b
+  digest: uH7dssJfAzegpAGJq6R6IgOaJmKt-RQK4VM10e63bDQ
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Review update from 0.28.0 to 0.28.1
+   * Improvements for loading Abbreviations  
+----- SIGN CREV PROOF -----
+1YPpHK7jmJNZ4zy639k5ym8It048IVGqLgoZHC2HT0n21U0JYO7GcFyn2XOBVBh35ydAu3v-iCbZgHe4EijiBQ
+----- END CREV PROOF -----
+
