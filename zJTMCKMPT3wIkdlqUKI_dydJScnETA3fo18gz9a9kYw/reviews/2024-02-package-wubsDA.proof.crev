@@ -246,3 +246,34 @@ comment: |-
 iPpeLXAJnfzqZdLVBx5corAIRq8Bd8b4rw4Uxzk-V3V3yVu6Sg_4IYeYN8ELHOUILd0WfaE9yfVA0X0IwmkrAA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T10:47:46.128601439+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: argon2
+  version: 0.5.3
+  revision: 5b6a74e0799955b21c9d3854de1674a78a472648
+  digest: emu9DFX8F34eUvvhraU10qu19YJQ2lCpIJLxWyi1dPo
+package-diff-base:
+  source: https://crates.io
+  name: argon2
+  version: 0.5.2
+  revision: 10d7f538eb3d98d8302057ef06df1490553d094d
+  digest: JawHU9st1LOf_W4goWM83Y1n-CEdjYCeTWjuyE7udbc
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Review update from 0.5.2 to 0.5.3
+  Internal refactorings + removed some unsafe code  
+----- SIGN CREV PROOF -----
+Ld4oG4S0KnaWY3FIB4e5i-nYY-1Nzx4lGSnz8hjOv0xMCczYXQFyBthc7VjX2EPt5Y4p1Dc2coPAWKFrEitaCA
+----- END CREV PROOF -----
+
