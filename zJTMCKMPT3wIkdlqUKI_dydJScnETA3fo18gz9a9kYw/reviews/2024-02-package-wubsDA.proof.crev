@@ -1720,3 +1720,34 @@ comment: |-
 bRtMxTX4XT8fiiqkgc2yjCy-VsJAvMUz5NUVkQpB3Qth6y25fwlVKbli9Z42sRj2zQXpNTFMa6wAO4g9GBv8DA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T13:46:42.912098551+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: futures
+  version: 0.3.30
+  revision: de1a0fd64a1bcae9a1534ed4da1699632993cc26
+  digest: UH2LGvTT3xW8rnUqVdTFZpmtvaBFpqpD5f3bDkP28ws
+package-diff-base:
+  source: https://crates.io
+  name: futures
+  version: 0.3.29
+  revision: 86f2a6aa8c0a188c8b75be0e4eac711321fd13d7
+  digest: MRynmjakTp0Jc5YWoRA8lF8-l4qIln4NuLSwNvsNS-o
+review:
+  thoroughness: high
+  understanding: high
+  rating: positive
+comment: |-
+  Review update from 0.3.29 to 0.3.30
+    * Update child crates  
+----- SIGN CREV PROOF -----
+uFbtiOJOLDokukfeeCO3Bf7pEUPFqRYyavX_cywpb1fzVk5iepaRMX4xXRmL5SIlHC7VSQjcEyGpI4X_jRcZDw
+----- END CREV PROOF -----
+
