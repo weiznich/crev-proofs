@@ -2197,3 +2197,35 @@ comment: |-
 _NN1cjYpNSOB0MY0LGKt13I-zhRdS1AIwtn097-tV7tacmthTjGNrvq_TaC1BLD6oBDNox25TJL7ezfkNwxgBw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T14:21:36.704931387+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: hashbrown
+  version: 0.14.3
+  revision: f2e62124cd947b5e2309dd6a24c7e422932aae97
+  digest: 3cRtndmrKuLqthmvm5t7EkNBQMlL1QSuBbfYBIHnO9Y
+package-diff-base:
+  source: https://crates.io
+  name: hashbrown
+  version: 0.14.2
+  revision: 7cd193accc21c51c3d5e2b2b5af4bf558ab859d3
+  digest: CE9Vbul7spr2WQgfBK16SghB0BkDygS9HvIpsz20sZw
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Review update from 0.14.2 to 0.14.3
+     * Minor optimizations
+     * Added a fold impl
+----- SIGN CREV PROOF -----
+LNbtgwM9TDYTcNWNkdrVMW0A9a8Z8mTlsieXLYvNvfcdTYFCJPCzCTfPIAjTZ4qHajMM2S8z26jdqMaMDu0hAA
+----- END CREV PROOF -----
+
