@@ -339,3 +339,35 @@ comment: |-
 dpf_J9Ef-EJ93rs4mxZi6GHzt3H8nZydXlydlWU0kisHNSco3V7EOKPuU8AY44gUrHuM7aYehX3TXzd3H8xvDg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T10:58:34.679661747+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: atomic-polyfill
+  version: 1.0.3
+  revision: 48e55c166684f37af0b00fbee5a0809b1a2bae8e
+  digest: Cs1iMVgbYJiVr1B6keDEc4KDzogGB3JdXKX1_UfpL24
+package-diff-base:
+  source: https://crates.io
+  name: atomic-polyfill
+  version: 0.1.11
+  revision: 2906bd31a75e6725d122f28723efd1f0fc93b15f
+  digest: eoRes2BgQABNAFk8jxKXscGIbBNVTvhhCdsKdUlIgKs
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Review update from 0.1.11 (yanked) to 1.0.3  
+  * Added forbid(unsafe_code)
+  * Updates related to avr and msp430 targets
+----- SIGN CREV PROOF -----
+pxGbn20ua9ADRZxHmu-L9xLoopJrJlCl7B88XVu_fSAOvqqEiVyTJ24yObVZpF_wk6RFzd7e4nDEgV1dr6BYCg
+----- END CREV PROOF -----
+
