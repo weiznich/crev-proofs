@@ -277,3 +277,33 @@ comment: |-
 Ld4oG4S0KnaWY3FIB4e5i-nYY-1Nzx4lGSnz8hjOv0xMCczYXQFyBthc7VjX2EPt5Y4p1Dc2coPAWKFrEitaCA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T10:53:03.515150379+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: async-compression
+  version: 0.4.6
+  digest: yw8oiSJ3k3dPFD3K7zNCAo5mnVyuEGoQRq7o6pUIb7s
+package-diff-base:
+  source: https://crates.io
+  name: async-compression
+  version: 0.4.4
+  revision: d75f8c23161638dcd263a4b40fad934ad4ab0d8b
+  digest: 26HvTRWdq70TD9nLK0EMJWABSQRywRLQ-h8CpYTNUFc
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Update from 0.4.4 to 0.4.6
+  Error handling refactoring + removed some potential panics (replaced with errors)
+----- SIGN CREV PROOF -----
+Nn_LHj5ntqoQmrwronPa5UT-4nk8cbf0b2rPShsErOmPf_BH7s6HRaFBjZfSoL_TgjU_ga11dIHQvUGjlCvLBA
+----- END CREV PROOF -----
+
