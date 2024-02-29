@@ -1432,3 +1432,34 @@ comment: |-
 BUkbKIcuWvdQRDv_4CJOcsYOjf5ET8WQrq_SzV-tPZThcHx1nZT1_RJSjKiGY_AuIlBMDUqlF-4DMnyw3R09Bw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T13:20:33.606276147+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: deranged
+  version: 0.3.11
+  revision: c25ef2cefe36d92ebf3de6df2faaf293881f7349
+  digest: txBtlRLV_kgsQkHk83yNH78xNPQxOpb5QcPhEl2vuss
+package-diff-base:
+  source: https://crates.io
+  name: deranged
+  version: 0.3.9
+  revision: a1bb20e61fd299dc25b8afe0f8c581121dcec19e
+  digest: u2r0xPlku8cleaXYBFmJnyZ155JLJQZzJmztQS4wKeo
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Review update from 0.3.9 to 0.3.11
+   * Rewrite internal macro to use a shared type instead  
+----- SIGN CREV PROOF -----
+RFWF7bHKhHYmgO9uhQBPkGxeRkBewE4FmagO1Uc9QesmsA7xoOK2E219Dw3OwqgLiHD8WORO00ym44XuBXAxCw
+----- END CREV PROOF -----
+
