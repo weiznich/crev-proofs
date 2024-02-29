@@ -153,3 +153,34 @@ comment: |-
 z28z73x8iju_Im3UaFy7OVJE8KqCHcXeJn-2Iw80leXHTyX5VwOoWGUngTYCymK_L-zxiW2rWfcgiBFfEreGAw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T10:35:13.981119594+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: anstyle-query
+  version: 1.0.2
+  revision: 953b2fc879f9a864968b734f8771b24134e616d9
+  digest: Bs_Dodd21skRfgPdyCaFwoxcl960_PGdqRUC8BnaiCA
+package-diff-base:
+  source: https://crates.io
+  name: anstyle-query
+  version: 1.0.0
+  revision: 0492783bb913b3100c4c011789057f283ad01eb8
+  digest: jU1X6SZRA7b0OEDixwZ7CGYdbWgXQtU0QUZNICfvQYE
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Update from 1.0.0 to 1.0.2
+   * Windows related fixes  
+----- SIGN CREV PROOF -----
+aSZXyFKWOAux4PYO-ky72IxfmrfURzWmqiw0IR2VCOk7LSmJ7t6thI4FMK10MZe8qj3z1S5fNbE9vlRR8p3lCw
+----- END CREV PROOF -----
+
