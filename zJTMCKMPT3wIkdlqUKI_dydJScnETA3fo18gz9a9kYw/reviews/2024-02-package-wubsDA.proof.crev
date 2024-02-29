@@ -1051,3 +1051,36 @@ comment: |-
 BFhkTL7D_dHOU1RK-WrHYojuKf8QqcLSlF5REcV5KY_X1EcUHzINiccgcRQTObN1Gxr4FJLZL6ech23OUwYtCQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T12:06:07.434801403+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: core-foundation
+  version: 0.9.4
+  revision: 795398aa3775bbdaf03419fcd2cc0dad7ebbc4dc
+  digest: elFQ6ZBI7o1J11mfZX8XnfO7_Fi3OeTNhAF6AhwRk2I
+package-diff-base:
+  source: https://crates.io
+  name: core-foundation
+  version: 0.9.3
+  revision: 6642b11b4c907406779e82382bf94e7ed6d6efd2
+  digest: Yx6NXJFUXvy1qtHfhexf8jcrERmxzlWuiC6VFPJUKTw
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Review update from 0.9.3 to 0.9.4
+   * Update edition to 2018
+   * Rustfmt
+   * Some minor new functions  
+----- SIGN CREV PROOF -----
+B65Dy7tdDy_2sADWWgxh5ONlh7GO0c1Ikd_ImNW3lm2zcwXFaCftSnqx1OcdsvbRSkT3k6Nbg51pmg0wlos5CA
+----- END CREV PROOF -----
+
