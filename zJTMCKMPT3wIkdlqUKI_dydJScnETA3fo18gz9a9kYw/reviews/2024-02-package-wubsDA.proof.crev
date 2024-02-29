@@ -435,3 +435,37 @@ comment: |-
 w3MfccflJ9BX1Oc1owmrk7gZD4M_B6MPy1lQZZRZ0Ca7WdxAErBA_aI4MjVvOyxBCkbsk5z3l8pqreOCI9W0Dg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T11:08:26.035727545+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: bumpalo
+  version: 3.15.3
+  revision: 2ed8718ae1a72f9050ae8e1286f0d5d75d9508c5
+  digest: 8RmBXxpHjkZspVSpZO2O932nKVypjbcpqEc8OnRJOnQ
+package-diff-base:
+  source: https://crates.io
+  name: bumpalo
+  version: 3.14.0
+  revision: c610d5adc54b9428465d72c4666c305df04c792a
+  digest: 51fmaKEO_3A2j6xpoO5tyO9-AujiedLuygftVGpPBas
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Review update from 3.14.0 to 3.15.3
+  * Add support for failable allocations to `RawVec`
+  * Add extend_from_slice_copy to `Vec`
+  * Add some methods related to pointer provenance
+  * Contains changes to unsafe code (expected as this is an allocator)
+----- SIGN CREV PROOF -----
+MW-8ztb0k5vt702MxhCD0OOfDkJdAKEQX7z5ygpyysTdn04X9a_AvWnQUzXiOz2VuU37dQcrCVzfS9oa4mEqAw
+----- END CREV PROOF -----
+
