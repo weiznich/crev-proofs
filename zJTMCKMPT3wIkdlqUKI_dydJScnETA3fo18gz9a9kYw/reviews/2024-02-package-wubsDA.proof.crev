@@ -694,3 +694,37 @@ comment: |-
 HfLuvhtv8iKhVNv1SKYlWMsyiMA-mzuRntoXvyR1MBa04wZoVY5pcemdb8jTtKGQGKth_CFhRFmvDV9WgJZfDA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T11:39:37.489325151+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: chrono
+  version: 0.4.34
+  revision: dc196062650c05528cbe259e340210f0340a05d1
+  digest: QGUwgSO2WB_gnPIhCJ5_dPePlbabwqZ7KGtraSmAMn8
+package-diff-base:
+  source: https://crates.io
+  name: chrono
+  version: 0.4.31
+  revision: e730c6ac45649a6a636abf30b796304bc46ecd15
+  digest: 0WpaWR3q74J1mAIxnBoAuYm4XfHRt8fsfSe5k9qbKYU
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+comment: |-
+  Review update from 0.4.31 to 0.4.34
+    * Changes releated to supported (de)serialization targets
+    * large scale refactorings  
+    * Documentation updates
+    * more tests
+----- SIGN CREV PROOF -----
+gsCrJke980ndK1_vZ40kBdjKQF5wtQ-g66GewmQoxfuXi0lMQi4sc-6K5EgxFUgsJkRE4IaI06wmVW6zi3N0Dg
+----- END CREV PROOF -----
+
