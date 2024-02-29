@@ -1593,3 +1593,34 @@ comment: |-
 eCoJ3iIP5F-ZM9NlcHbYD8UtRncz6-YqdLpw67U1qZHpIa0cYzZudJUKLd6b5CszBOSHkLadcbVNqlDg_JfyDQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T13:38:38.709508210+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: fdeflate
+  version: 0.3.4
+  revision: 11d05bdaec5f2ff9e5d1a8aed555958789f4cef8
+  digest: fE99xwXq8s7ACh0IEu0Zz27tIrbXaw9JllZ5xpI1lnw
+package-diff-base:
+  source: https://crates.io
+  name: fdeflate
+  version: 0.3.1
+  revision: f1cb9f801f9480913dfbd610d31024574688c1fa
+  digest: tOgI1IJkUf8tmaM7Cs6N6STr6vtCSyQO0MpFsPf1DcE
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Review update from 0.3.1 to 0.3.4
+   * Improved decompression code  
+----- SIGN CREV PROOF -----
+OkHq7KDv-_fzYV2BDsFXwV8X4NZjlYqDdf1Fbz0IE6rM1-XI5O2FZoV_jq1IwxapEeFl5CzYkVhbblPcImYSAg
+----- END CREV PROOF -----
+
