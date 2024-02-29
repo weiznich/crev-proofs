@@ -2762,3 +2762,34 @@ comment: |-
 t4EeSnFjVLanoAo_6mZESjyxYlw48DvoozYy5T5jY1mPdNLfSpkn8lYP-wkdLQKX8wvarmQ2Iz9PFFomQ-fxCQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T15:35:45.468915299+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: memchr
+  version: 2.7.1
+  revision: 31c1e7911e45f17db761aa1f152896d92d782587
+  digest: w26IhfHRxbyJAmOkyihrRdEhQNOX4xqTK5Keyy121Mk
+package-diff-base:
+  source: https://crates.io
+  name: memchr
+  version: 2.6.4
+  revision: ce7b8e606410f6c81a63f45abb24c5b5aab5d741
+  digest: Rd-6VgRv01ZX8Vg_Lq1NXDTmSd2C3FnDPV5gChyuroo
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Review update from 2.6.4 to 2.7.1
+    * Preformance optimizations for one loop  
+----- SIGN CREV PROOF -----
+8mEkgr_-DAjzPQETxEwqD0uaejPwjTw-EYRJknPP7QbcPzkCw8iSm-RKbY2fPL4Ti_uymcRKDyZyFKbjJJznBw
+----- END CREV PROOF -----
+
