@@ -403,3 +403,35 @@ comment: |-
 Q34yH9lJCZZsTB_NAShKvLUfAq0CxdqAY_mzFOwn9OiakCZv1nbaI2oSxfbHz1mSLf8Aw7sVQN3o6RpDfpWuBw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T11:04:40.148265569+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: bitflags
+  version: 2.4.2
+  revision: a5f9ce20e9d18444aa9b20c8fea9c00155cbafa3
+  digest: 6C1rhKUUC6b-ZtX_Bx0MJyNufeIVOzbHpdI9GHHzQQo
+package-diff-base:
+  source: https://crates.io
+  name: bitflags
+  version: 2.4.1
+  revision: 6c67922300d5abae779ca147bac00f6ff9c87f8a
+  digest: Aq-j7974kZBtlH2c9C4f1x_tXMvgZ_naZj_kWTjGDGk
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Review update from 2.4.1 to 2.4.2
+   * Update macro rules based code to not relay on local_inner_macros
+   * Add many tests  
+----- SIGN CREV PROOF -----
+w3MfccflJ9BX1Oc1owmrk7gZD4M_B6MPy1lQZZRZ0Ca7WdxAErBA_aI4MjVvOyxBCkbsk5z3l8pqreOCI9W0Dg
+----- END CREV PROOF -----
+
