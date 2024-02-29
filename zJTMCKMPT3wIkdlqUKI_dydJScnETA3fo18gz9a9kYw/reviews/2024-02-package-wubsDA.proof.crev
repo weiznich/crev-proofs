@@ -824,3 +824,36 @@ comment: |-
 UNJZjbjChRJam0PxcPwjiW3DFMeIDQaJe1ktWAolFpYem2k5yZPspAuR-et2PcevZUcugaQW9d2aJhBvmoujBg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T11:47:43.526573623+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: clap
+  version: 4.5.1
+  revision: 8a7a13a5618cfdc4ff328624a5266e7b4d88649a
+  digest: G014IyFFLekPGkQBf_csEkqKOonAc876Ati6VWgPMZA
+package-diff-base:
+  source: https://crates.io
+  name: clap
+  version: 4.4.7
+  revision: 9bfa5a338c6532419e2477e89708395fbb02ca06
+  digest: 8u7LhuKOjeI9SKWkWQ52Zqc4hlhn7Ehx9dNTdQlNKJY
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Update from 4.4.7 to 4.5.1
+  * Mostly adding more documentation and examples
+  * Dependency updates
+   
+----- SIGN CREV PROOF -----
+SoPXYSjc-D3XzFMBaw7wgnlPHLQmil3BOkB4Da60VJAIwX-i41ikcZU0dK1rVXMaX2uQH5BBD4GrDaexliGzDw
+----- END CREV PROOF -----
+
