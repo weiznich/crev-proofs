@@ -2066,3 +2066,36 @@ comment: |-
 Gl9gm1hPecPvDIfeoNAPTdPdQoE1tA_DFZCmoo5teZw78kp0fsSRKLw5_XfgXfVkBb3JWGWm-6nOW8kSysBJBA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T14:06:40.171459316+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: getrandom
+  version: 0.2.12
+  revision: f68a940b4dac78b49f00599aebd56c72284a92d9
+  digest: Is_Zr4yJIUcJxYnVnCxQwxoUzeSNC60ATTlqUauiSEw
+package-diff-base:
+  source: https://crates.io
+  name: getrandom
+  version: 0.2.10
+  revision: 2e483d68aaa57168a84489349d6473b492e05478
+  digest: zd1b4xe3TIiASZV7jS_i3INOhzl4jWSx6O3EnNKwFbw
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Review update from 0.2.10 to 0.2.12
+    * Removed copy right headers
+    * Target specific adjustments
+    * Removed a unsafe primitive implementation  
+----- SIGN CREV PROOF -----
+KzHqr8bZwQ4Ocu9sNem8b_VJoFqTcR6U6_hFOoBt_hHReQ9nVzk1dgHo-L3_7FGiuYNV0WvBVtTc_g_B5x8FAg
+----- END CREV PROOF -----
+
