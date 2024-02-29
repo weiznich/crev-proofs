@@ -1370,3 +1370,34 @@ comment: |-
 yqj_QkkK7ToVS3eFGvjmA7_aZCSGnsA_LFHLxHh1t7ToCHRFeXKLsA8NKgGnCOu23sImsaqEHt93On6lLw2VAQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T13:16:26.752715439+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: darling_core
+  version: 0.20.8
+  revision: 25ce6ecc079c58a18cbecbdcc98bf8d647410edd
+  digest: mFcTKqh1xsneo8ibLr5Ux_lV-VqXPKBIUvhy2WiHqLQ
+package-diff-base:
+  source: https://crates.io
+  name: darling_core
+  version: 0.20.3
+  revision: 99ae0bb97fd88f4b22dd46b95773a1e752bfcf34
+  digest: oHKvx8-KdxfLPYi0vHG3kKKXQmZMtC20LgtXXQe3i6I
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Review update from 0.20.3 to 0.20.8
+   * Added several new features  
+----- SIGN CREV PROOF -----
+a5MqSvXshX3C0FLgm5f3vkiqgHrf72YO34cqLiU1rRxZTpC9155_IbEwyaMg2LzeA3IPej_gQ7ZQIl3JmNnBCA
+----- END CREV PROOF -----
+
