@@ -599,3 +599,34 @@ comment: |-
 ugmg3XF2m15fjk5fJKEYA7xcYQd55LKJXGoV2PrwrIH-ag-CFcvU59JowR_Lp8EzHP5YfqcYjAMHFDPEPqPYBQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T11:27:21.915401400+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: cargo-platform
+  version: 0.1.7
+  revision: c84b367471a2db61d2c2c6aab605b14130b8a31b
+  digest: skWx1ZDKw4CNM4o2cfb4i9CN1aUdcMTA8o7hCu4PjaQ
+package-diff-base:
+  source: https://crates.io
+  name: cargo-platform
+  version: 0.1.4
+  revision: 9c4383fb55986096b414d98125421ab87b5fd642
+  digest: 0G1kobra4y7V5vkb5jEBr_C4GO0KNjMfpC3rnguGz1c
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Review update from 0.1.4 to 0.1.7
+  * Clippy related fixes  
+----- SIGN CREV PROOF -----
+1lYWJnOlwl73105Wtc77dUXSRy_Lic7OMMCxTpTZR_mwhBLNdOLd2IH-P8qXIMqhY9P8XRFDUbQaFCBVgeWMAg
+----- END CREV PROOF -----
+
