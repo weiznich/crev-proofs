@@ -1496,3 +1496,35 @@ comment: |-
 CYd5A4ZqY3C1aF5FwksUQ6kQdLJe8jJlzb4Q6XcUlGwyk1zNG8URPkLMv0aW1kQF7Ibu2lnvGvGOSUOQl_fRAg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T13:24:45.824587492+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: errno
+  version: 0.3.8
+  revision: 529718762b1f752ccc894de5380d3aa10889733d
+  digest: A8os8WXIgoIeyVkwxFyETLvrGH680GPyQpK0dLppojk
+package-diff-base:
+  source: https://crates.io
+  name: errno
+  version: 0.3.5
+  revision: 9928bb1ac72159d03866a49820606e607c5e76ee
+  digest: 9uvylA0vBOOR2KekcUQdFRaYhhLiUJZF9hIZzYd-WB4
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Review update from 0.3.5 to 0.3.8
+    * Bump windows-sys depnendency
+    * Tweak target support 
+----- SIGN CREV PROOF -----
+CzDnCcrL7PB7PddPsh44FczekbtMT5GgANLlaOodDaMtm3zAKFS7TDxtjzCqHHTFWz0wV2ulVFa1OlxpBKaMAg
+----- END CREV PROOF -----
+
