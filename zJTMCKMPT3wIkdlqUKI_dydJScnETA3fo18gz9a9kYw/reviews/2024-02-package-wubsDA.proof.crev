@@ -2546,3 +2546,34 @@ comment: |-
 Pt_9ZXbwZzN_6vHP9LAXlJ0xCthhRdtdysbt_67ZRxLJzj0arQgUL0vgLbN74Ldp-Nqy0Qpvm7sUOsHHymMJBQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T15:06:25.652483146+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: indexmap
+  version: 2.2.4
+  revision: 4df99d818369b437e9e09e204832071fbd5b39dd
+  digest: plOKDhjzrg11miHXPWgupgCKgi7D7a6c5_Qe-PRyZ4A
+package-diff-base:
+  source: https://crates.io
+  name: indexmap
+  version: 2.1.0
+  revision: ff497924ea8f5f949444f31fa3b33d50320f4e49
+  digest: wEjHnDkMMLQaOQiyC-R6z2ln_5cFFF0m9KsfN6ez-iQ
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+comment: |-
+  Review update from 2.1.0 to 2.2.4  
+    * Large scale changes to the API and implementation
+----- SIGN CREV PROOF -----
+mi1rpBGE0GNVlKVoTaaPiL-BxRjC2b5C8B6hQXhFvh1MLcd_a8StAfPhWY2d9NfV039jNolcdF1SNKDNLrIaDA
+----- END CREV PROOF -----
+
