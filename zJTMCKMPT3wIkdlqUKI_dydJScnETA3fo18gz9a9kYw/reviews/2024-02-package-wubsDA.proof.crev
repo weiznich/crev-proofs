@@ -2099,3 +2099,36 @@ comment: |-
 KzHqr8bZwQ4Ocu9sNem8b_VJoFqTcR6U6_hFOoBt_hHReQ9nVzk1dgHo-L3_7FGiuYNV0WvBVtTc_g_B5x8FAg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T14:12:21.575268266+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: gif
+  version: 0.13.1
+  revision: 70a1d31ec5719da10c6eb8163ed4283747d56f7c
+  digest: TjyG2gqGMI4GV_vteuJcWOqKBzNjJlr6swm4CM7Dvuw
+package-diff-base:
+  source: https://crates.io
+  name: gif
+  version: 0.12.0
+  revision: 3a9397d100dbe09d33ab2493e53d81241cbec923
+  digest: Spulx9YLF-Gj5qWgE6fIvlt9kBGcPbMa0PSLhm6Q6WY
+review:
+  thoroughness: low
+  understanding: low
+  rating: neutral
+comment: |-
+  Review update from 0.12.0 to 0.13.1
+    * Added some `#[must_use]` annotations
+    * Generalize some impl to take more than slices as arguments
+    * Rewrite decoder/encoder (did not notice unsafe code, but a few strange expect calls)
+----- SIGN CREV PROOF -----
+6YEpyAri5vHfPWP-TAmpiqwoO0eLaW1CawFnCICAYZiuovouNVUlam-72yg3CRx-EnGIQ9dfYDhiOGNKGamJBQ
+----- END CREV PROOF -----
+
