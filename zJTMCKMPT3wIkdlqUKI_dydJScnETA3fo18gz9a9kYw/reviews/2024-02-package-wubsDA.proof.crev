@@ -2451,3 +2451,34 @@ comment: |-
 Z08Vxemt_3IzslTHr1WMN0_96FFCFYAw6KNyYCkMQ_XMwXOuDDqhQINJAAc1bizZXmGDRvhUcugXomtLmcnDDw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T14:49:51.016947111+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: iana-time-zone
+  version: 0.1.60
+  revision: bf8375336a9cc5fbdb0c40f92bdd0b1b13a8a879
+  digest: q1xyNLGDOjgn_RQO8DEWQJFQNxx3JB7g-eXoKA43x2M
+package-diff-base:
+  source: https://crates.io
+  name: iana-time-zone
+  version: 0.1.58
+  revision: bea1576cdf6419a43928347c4ccd494b7a9e482e
+  digest: 3AkZFZ0PPuS_XFMFXU0aPAxR57CkYgruV2dlqCKd9dg
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Review update from 0.1.58 to 0.1.60
+    * Allow windows-core 0.5.1  
+----- SIGN CREV PROOF -----
+X-1ED-uSui3kEW-4FJfqpmKgvesj3XXBW9RyGPLlJdP_fUYMtvZjHAIS3_if9bxY4GhbSErP3i-O9iCKiPTSAg
+----- END CREV PROOF -----
+
