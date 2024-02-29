@@ -1969,3 +1969,34 @@ comment: |-
 ajk9s7xAJFaL-MlJ7i-Y6Tbh3R8Do3bLTrGRbjdV6b2eovcbJh_O-9SQxjxW9zzecvEZH5sbEHUPIiy0It4XDA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T13:56:56.146908590+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: futures-task
+  version: 0.3.30
+  revision: de1a0fd64a1bcae9a1534ed4da1699632993cc26
+  digest: lAk93PynWF6EzR2GJthINzm-JCk-fDddx5USnHDkcWg
+package-diff-base:
+  source: https://crates.io
+  name: futures-task
+  version: 0.3.29
+  revision: 86f2a6aa8c0a188c8b75be0e4eac711321fd13d7
+  digest: kZek6lqN_5vuVL-adqyfsw5U0fwptvMmbPqoo2LsSZw
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Review update from 0.3.29 -> 0.3.30
+   * Removed build script  
+----- SIGN CREV PROOF -----
+NJzXyr3Ysk1foafsLdqAFw58DPP7dzGyO5sW9j1KTTBlRER5TZekELw6hneT49WQdjuwq_TZFox9mWrZePz0Cg
+----- END CREV PROOF -----
+
