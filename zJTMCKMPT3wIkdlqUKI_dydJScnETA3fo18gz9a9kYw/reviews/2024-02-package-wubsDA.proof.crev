@@ -1624,3 +1624,34 @@ comment: |-
 OkHq7KDv-_fzYV2BDsFXwV8X4NZjlYqDdf1Fbz0IE6rM1-XI5O2FZoV_jq1IwxapEeFl5CzYkVhbblPcImYSAg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T13:40:34.541810929+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: form_urlencoded
+  version: 1.2.1
+  revision: 00e9e18ce6504e0e9157816c593afec8e69cb9e3
+  digest: 9eXIvyPUvRjdxHBpXsFMUOYNexQP96YhpZdGScLOoA8
+package-diff-base:
+  source: https://crates.io
+  name: form_urlencoded
+  version: 1.2.0
+  revision: a3e07c7de5a9c98e1143919c3f7d5b69e850cfd7
+  digest: xU33qn5PlwMCxSnYEv53AiaYRMOaShfwILe8XVpdvOk
+review:
+  thoroughness: high
+  understanding: high
+  rating: positive
+comment: |-
+  Review update from 1.2.0 to 1.2.1
+    * Added a flag for docs.rs  
+----- SIGN CREV PROOF -----
+uRAe7K6d2050x9vANbFyQoQvRqZxIIRDSS5BHvB37lhDKN75PoC1DOgBoXACZsZWaf53nNZ-5VO_BpNFcGApBA
+----- END CREV PROOF -----
+
