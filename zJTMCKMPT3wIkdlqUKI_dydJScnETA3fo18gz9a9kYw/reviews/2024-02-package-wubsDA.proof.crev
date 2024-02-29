@@ -630,3 +630,36 @@ comment: |-
 1lYWJnOlwl73105Wtc77dUXSRy_Lic7OMMCxTpTZR_mwhBLNdOLd2IH-P8qXIMqhY9P8XRFDUbQaFCBVgeWMAg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T11:30:03.018862861+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: cargo_toml
+  version: 0.17.2
+  revision: 4da7e324173cf6f9e18a17bb372fd6d95724d16d
+  digest: ClliKSKDH2-frX3cSoCa8E34YoiNAMOesA-rfGawNwQ
+package-diff-base:
+  source: https://crates.io
+  name: cargo_toml
+  version: 0.17.0
+  revision: 8b0fa837fc57490e4c04c349aac34d8104d14da9
+  digest: W7ch6uW_W-S_b-diCCTMDRjGQmnvM79S6KcxuCek_iw
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Review update from 0.17.0 to 0.17.2
+  * Documentation
+  * Added a new public function
+  * Changed some maps from `HashMap` to `BTreeMap`  
+----- SIGN CREV PROOF -----
+_2b-5OXIK4TDhvT97-UinFbBprzySgfRZgwWjeS3fGnzhFwBbffAXgDVL0MmoIJYVTfme1U7XSgciO6Qc2QJAA
+----- END CREV PROOF -----
+
