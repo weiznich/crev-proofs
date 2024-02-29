@@ -2608,3 +2608,34 @@ comment: |-
 kzM2TkEfmbJLmpD2O6bv1Y3jGQsU_KyzGgQbGd8J4NAcCm-nVwCLq8CnSOZcXZbF9YK3bNRPUM375-PZlgKcCw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T15:12:44.720445138+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: is-terminal
+  version: 0.4.12
+  revision: b11ccb2c6a44c0a46834543e638414598afaa0e1
+  digest: wS2OpBLbXkuz7be9w14yeZtiN3lSixztQJdZzRnGvog
+package-diff-base:
+  source: https://crates.io
+  name: is-terminal
+  version: 0.4.9
+  revision: 7876976433813c2e9d7c0ac14ebfe726f947de4c
+  digest: KDOmzAtOXmVvB5lraYhWmVP8KRmvDLGfZh4fkX9oiNQ
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Review update from 0.4.9 to 0.4.12
+    * Windows improvements  
+----- SIGN CREV PROOF -----
+mPZy4t0YjAhOCVAz-96ICbsSAeO-vB7B7Y6I3oEZ2GeLFhzBeUXM5Svpw8k7W146ULLpOWMtUMkDr6qJQIiuAQ
+----- END CREV PROOF -----
+
