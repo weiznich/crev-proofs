@@ -2702,3 +2702,32 @@ comment: |-
 2czyxA2KBxUQE1Ruut3XRRnaIpusZQJTj45Pzvnl2Zc44xXbYTKvpXKhZd2RgFSon3lGn_VRZUnOL9rjJIsLCw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T15:20:10.833849768+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: js-sys
+  version: 0.3.68
+  digest: GwRpGEPrly4nnbj1biNG1XmenLpMSNDkmemJWLxoHyo
+package-diff-base:
+  source: https://crates.io
+  name: js-sys
+  version: 0.3.65
+  digest: v-ikOdbyVibzqOU8mKViXPXV8bh441vSvQh72OG9LOI
+review:
+  thoroughness: low
+  understanding: high
+  rating: positive
+comment: |-
+  Review 0.3.65 to 0.3.68
+   * Added a new new_with_shared_array_buffer function  
+----- SIGN CREV PROOF -----
+0OkxCWO-3IGzYC-pzR8MSVNpEP_sw74mksqS6LtmRbOloKs3dV4_vLGBL1TWUYShLDqmpvEl7A92rOd41GyDCg
+----- END CREV PROOF -----
+
