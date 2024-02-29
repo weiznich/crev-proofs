@@ -536,3 +536,35 @@ comment: |-
 G3x4PUYVb6k0PjYTmq9FARfAOtjVhOVZa4_icEpaVPL8es_zfNUiKw3jNy0mhDFVuqKDNM5Gbs-UuiXrmiQ9Aw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T11:22:27.131271507+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: capnp-futures
+  version: 0.19.0
+  revision: 4e1a30a1ea658d7c8f5bf9a91238fe7953058da4
+  digest: yu4qO2cQSZJp4z1sbsigB-6GrQRFdEi8hgHb8_cMl4o
+package-diff-base:
+  source: https://crates.io
+  name: capnp-futures
+  version: 0.18.0
+  revision: 82aa8a2163b5eadaa83aa2716ce781fc78107c2c
+  digest: 4gwkjGGXkJQw8ssWMKtG5vJRDP4zBF7EQuA7COrG3GI
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Review update from 0.18.0 to 0.19.0
+   * Fixed some bugs
+   * Changes related to the 0.19.0 capnp release  
+----- SIGN CREV PROOF -----
+C93dPzzZL9mKMhKuBNVaLp5rmUu8CQmZvpXORPsIFUUwCuL34BFspmzWI_voBZdcGyces_-e3TrOtkO3k4QyBw
+----- END CREV PROOF -----
+
