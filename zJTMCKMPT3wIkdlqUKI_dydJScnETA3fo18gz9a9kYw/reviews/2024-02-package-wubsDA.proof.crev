@@ -1305,3 +1305,36 @@ comment: |-
 m8g5PSD791mlRlPNhoEarXISO3ZJ4Vnz-3aMVqgkwG01EOJvvfzKTbuyATRJdvJ6qwK-YzIIPQNu-QskPXJzAg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T12:24:36.076076504+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: crossbeam-utils
+  version: 0.8.19
+  revision: 9c3182abebb36bdc9446d75d4644190fef70fa01
+  digest: kgqWJzyV70kuxEfnKNHoxtcOIjFzs7ccvt_YDX8rqlw
+package-diff-base:
+  source: https://crates.io
+  name: crossbeam-utils
+  version: 0.8.16
+  revision: de26ec7f2fa5f2d6ab0a96145e49eefcc03897e9
+  digest: mA8i3LheDLPoeKqvAhDOy__eCJmvZ2tSSuHNLKo-nBg
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Review update from 0.8.16 to 0.8.19
+    * Build script improvements
+    * Newer language features to improve unsafe code
+    * Tweaks to supported targets  
+----- SIGN CREV PROOF -----
+8mFQY-dX3qwcOR17IsXfCCzYkEBQov3GInD4AikgqES_D3w9oycjb5u7tgnz0nA_0cN5Zaho44DdyVCksIVYAg
+----- END CREV PROOF -----
+
