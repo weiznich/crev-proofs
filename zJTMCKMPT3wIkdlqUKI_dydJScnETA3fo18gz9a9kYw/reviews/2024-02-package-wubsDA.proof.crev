@@ -1241,3 +1241,34 @@ comment: |-
 -CiM1pG69lkKj7zYCNzd_Ot56TI0AYuquLLHooQ6N4rYYThydVUAVJDcCE6KSTZkIpp-VYYhsvwpsXAYy3bODA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T12:18:16.093746134+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: crossbeam-deque
+  version: 0.8.5
+  revision: 9c3182abebb36bdc9446d75d4644190fef70fa01
+  digest: 6uOFJ95ZbTEYZcfzSceU_6jYCwMvsTlqMJLIigbeWUE
+package-diff-base:
+  source: https://crates.io
+  name: crossbeam-deque
+  version: 0.8.3
+  revision: 721382b00b5dadd81954ed66764d547e2f1bb7a3
+  digest: 6-piSZ0aIlF_AunGQrdWOccALv0juxUEWysu7xL26hs
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Review update from 0.8.3 to 0.8.5
+   * Improved some unsafe code around using `MaybeUninit`  
+----- SIGN CREV PROOF -----
+rr2Bc5P420k-iz3Om0yzrLDpsRYSGf3rlzpUXRbV9FhrFVVYuXurWpVbrRIalju7U18rvOigfts9_0w-f1kIBA
+----- END CREV PROOF -----
+
