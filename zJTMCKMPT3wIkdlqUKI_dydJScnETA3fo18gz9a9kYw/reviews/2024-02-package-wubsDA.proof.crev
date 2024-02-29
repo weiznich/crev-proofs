@@ -2163,3 +2163,37 @@ comment: |-
 1YPpHK7jmJNZ4zy639k5ym8It048IVGqLgoZHC2HT0n21U0JYO7GcFyn2XOBVBh35ydAu3v-iCbZgHe4EijiBQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T14:19:15.805574188+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: half
+  version: 2.4.0
+  revision: 41cb0f4110469aa15e7b96f4ae5e3c57df9b40e4
+  digest: qk8pJovNKb7_YozGLu0HEimIntmEQ9-zalyssFM4d-M
+package-diff-base:
+  source: https://crates.io
+  name: half
+  version: 1.8.2
+  revision: 9fbefd4517edf0c3bb37216deaf0cc33de790396
+  digest: zdwHCoDW8vVY7EZrKuTtDETub6mHYrmNm8hauMhZ9Mo
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+comment: |-
+  Review update from 1.8.2 to 2.4.0
+   * Added dependency on cfg-if
+   * Added optional dependencies on rand, rkyv
+   * Inline/must_use annotation
+   * More functions to match stdlib
+----- SIGN CREV PROOF -----
+_NN1cjYpNSOB0MY0LGKt13I-zhRdS1AIwtn097-tV7tacmthTjGNrvq_TaC1BLD6oBDNox25TJL7ezfkNwxgBw
+----- END CREV PROOF -----
+
