@@ -2513,3 +2513,36 @@ comment: |-
 U90N0t7EpZ8KBgoLfhg6-zckuSEl7gMiNhh6gllq7YN3TPtNE8-m0ju2YC20y-lsDlW5gPDBlZcmQA3JK0fkCw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T14:58:22.406095068+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: image
+  version: 0.24.9
+  revision: 2b513ae9a6ac306e752914f562e7d408f096ba3f
+  digest: XBWgeazjdSkJ3WEHY19y48zbHj1YTIcY58f-093zqeM
+package-diff-base:
+  source: https://crates.io
+  name: image
+  version: 0.24.7
+  revision: e5580ec13c56e1303bec2e1b94d71da5efc6dcf8
+  digest: BD_u8MszwtZ9Lu33idhZPbf2q7OGLM-YnAEDcWdw0wc
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+comment: |-
+  Review update from 0.24.7 to 0.24.9
+    * Dependency updates
+    * Added now pixel type
+    * A lot code refactorings
+----- SIGN CREV PROOF -----
+Pt_9ZXbwZzN_6vHP9LAXlJ0xCthhRdtdysbt_67ZRxLJzj0arQgUL0vgLbN74Ldp-Nqy0Qpvm7sUOsHHymMJBQ
+----- END CREV PROOF -----
+
