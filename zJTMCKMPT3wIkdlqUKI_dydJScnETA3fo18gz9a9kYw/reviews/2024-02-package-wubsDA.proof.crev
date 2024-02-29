@@ -2670,3 +2670,35 @@ comment: |-
 oArU3xyaCZuNbf5xwGspbjl3hQ_ZTw4PqfUGeGpJatClfIfbX74MWs8VfM9xgf37wYSQjK-4_08pfnTP7iMdCA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T15:16:40.589691035+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: jpeg-decoder
+  version: 0.3.1
+  revision: c1a1fe04cc54a5446e57a71ea856afd07cd374b2
+  digest: 3lvWfUsNoh5cdERJGKhHrjvR15iIhWGI9otOQin7qAY
+package-diff-base:
+  source: https://crates.io
+  name: jpeg-decoder
+  version: 0.3.0
+  revision: 071bca9de1bf439459f233da5629e94660b3415f
+  digest: 07XQ3C2bFd7WhOvYv-Afpn2mLhNZf-7Qw36VWOiFoUY
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Review update from 0.3.0 to 0.3.1
+    * simd backend for wasm
+    * xmp packet handling  
+----- SIGN CREV PROOF -----
+2czyxA2KBxUQE1Ruut3XRRnaIpusZQJTj45Pzvnl2Zc44xXbYTKvpXKhZd2RgFSon3lGn_VRZUnOL9rjJIsLCw
+----- END CREV PROOF -----
+
