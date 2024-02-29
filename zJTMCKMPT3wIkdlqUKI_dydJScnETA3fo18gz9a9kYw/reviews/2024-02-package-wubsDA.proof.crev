@@ -2419,3 +2419,35 @@ comment: |-
 bqJYrvBqlG2hVptOmviP1snd9JxSJVGiSiAeD8mpZ8RU5c8aCHHUmceaZ8xc5odonqMxW2CK4moTsrX2DkwBCw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T14:43:16.304272934+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: hyper
+  version: 0.14.28
+  revision: 98a7ab039461cd859e835ae4d15413489fe5cf6b
+  digest: 9Anq3fycrCktMGUU5UCs_IIOEDhQy3V4LlYkpFZC9NE
+package-diff-base:
+  source: https://crates.io
+  name: hyper
+  version: 0.14.27
+  revision: d77c2599bc023b258b90a17f5b633c8b7b0cbd4b
+  digest: --Lq6lDU6oQcyD_7GaluKnjUlgiFcpsncKDgMl48Guk
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Review update from 0.14.27 to 0.14.28 
+    * Added some deprecation annotations
+    * Code style changes  
+----- SIGN CREV PROOF -----
+Z08Vxemt_3IzslTHr1WMN0_96FFCFYAw6KNyYCkMQ_XMwXOuDDqhQINJAAc1bizZXmGDRvhUcugXomtLmcnDDw
+----- END CREV PROOF -----
+
