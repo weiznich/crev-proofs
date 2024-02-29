@@ -1147,3 +1147,34 @@ comment: |-
 hjzWDXwx92lGeBpFvOBDtkznF7VmOpGES6yKivuHmJUtO1mT2y_SiBO7-WDrcGArF_uRCMDymsMl9WnDdS43AA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T12:11:22.175817934+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: cpufeatures
+  version: 0.2.12
+  revision: 5abf0fd47a5bb0def41648c321bd766453f81521
+  digest: avWWHlfOoU5jmLjwVy_k_SIcTlFfxrbNMOlYhmkN940
+package-diff-base:
+  source: https://crates.io
+  name: cpufeatures
+  version: 0.2.11
+  revision: b1a613ba5a6da797ca8e63d1a8f41e793ba39b7b
+  digest: YTgyhyZbXJIKtTdY3lw2gVqZH_5ds7EUygIePub7TPw
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Review update from 0.2.11 to 0.2.12
+   * Added some more instructions  
+----- SIGN CREV PROOF -----
+X4bdRrzaON6rJwKZ7nktVbkNJn1fEI-bMsjICrKIizYYDTeKT8SItSQeldI47X7zbEerguzNgPwpXL2JbcV6Bg
+----- END CREV PROOF -----
+
