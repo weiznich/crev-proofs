@@ -2261,3 +2261,34 @@ comment: |-
 xJ2qi6yfUUeHhqYKkYGwAMq0iiALaWWBEhhY-Pr4yvuKyaqoYgk-aNetjMBUNCAyPQEEGM_mAHxWvKoZSKyPBg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2024-02-29T14:26:31.538849618+01:00
+from:
+  id-type: crev
+  id: zJTMCKMPT3wIkdlqUKI_dydJScnETA3fo18gz9a9kYw
+  url: https://github.com/weiznich/crev-proofs
+package:
+  source: https://crates.io
+  name: heapless
+  version: 0.7.17
+  revision: 0eea6da5bc159823d0564fcd6974eab299073dcf
+  digest: pyclJ7ioWwj_lLPiq01Mo6VaD-aufxT9u8f1877AR2E
+package-diff-base:
+  source: https://crates.io
+  name: heapless
+  version: 0.7.16
+  revision: 8a98b2650deceda3bc6a1d0c8aef3f7778cf37c4
+  digest: PvLIms-z7IHtgBcjpuG-ryJHDX2A5aIyFtP0L2EJ8F8
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Review update from 0.7.16 to 0.7.17
+    * Minimal target specific adjustments  
+----- SIGN CREV PROOF -----
+-FS46eTEbPBITW5HRcD0LsN9Cwq8eh3SlA96OqrUTPtjCheegpo5nmpP-criWk0EEDW_O9yz0tp4_-6-KCb8Cg
+----- END CREV PROOF -----
+
